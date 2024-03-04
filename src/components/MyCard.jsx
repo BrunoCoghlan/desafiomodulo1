@@ -1,6 +1,6 @@
 import Tags from './Tags';
 import Card from 'react-bootstrap/Card';
-
+//COMPONENTE CARD, RECIBE LOS PARAMETROS DESDE COMPONENTE APP, PARA EL Y PARA TAG
 const MyCard = ({ url, name, description, tagName, tagColor}) => {
 
     return (
